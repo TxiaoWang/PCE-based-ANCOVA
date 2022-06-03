@@ -1,0 +1,43 @@
+[VSAT 8.0 Transfer]
+
+{Description}
+   No Description
+{End Description}
+
+Transfer Name = 'F7To349'
+Step Size = 0.1
+Cutoff Step Size = 0.05
+
+{Source X}
+   Source Name = ''
+   Decrease Limit = 100.000
+   Increase Limit = 500.000
+   Dispatch Groups = By Share
+
+   {Generation Scale Group}
+      Group Order = 1
+      Group Share = 100
+      Scale Generation = MW Output
+      Include generator = 7 'Gen9'
+      Include generator = 7 'Gen10'
+      Include generator = 7 'Gen11'
+   {End Generation Scale Group}
+{End Source X}
+
+{Source D}
+   Source Name = ''
+   Decrease Limit = 10.000
+   Increase Limit = 500.000
+   Dispatch Groups = By Share
+
+   {Load Scale Group}
+      Group Order = 1
+      Group Share = 100
+      Scale Load = P and Q
+      Include load = 3 'Load3'
+      Include load = 4 'Load4'
+      Include load = 9 'Load9'
+   {End Load Scale Group}
+{End Source D}
+
+[End]

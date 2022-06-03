@@ -1,0 +1,20 @@
+[VSAT 4.X Contingency]
+
+{Contingency}
+  Contingency name = 'G1'
+  Change Generation = 1 'Gen1' , ,
+{End contingency}
+{Contingency}
+  Contingency name = 'L2-4'
+  Outage Branch = 2 4 'Line4'
+{End contingency}
+{Contingency}
+  Contingency name = 'L9-11'
+  Outage Branch = 9 11 'T2'
+{End contingency}
+{Contingency}
+  Contingency name = 'L4-9'
+  Outage Branch = 4 9 'Line7'
+{End contingency}
+
+[End]

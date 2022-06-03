@@ -1,0 +1,33 @@
+[VSAT 4.x Criteria]
+
+{Description}
+   No Description
+{End Description}
+
+Criteria name = ''
+
+{Voltage limit}
+  High limit = 1.1
+  Low limit = 0.9
+  Apply in = Post-Contingency
+  Include bus = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24
+{End Voltage limit}
+
+{Voltage limit}
+  High limit = 1.06
+  Low limit = 0.94
+  Apply in = Pre-Contingency
+  Include bus = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24
+{End Voltage limit}
+
+{Thermal limit}
+  Line rating no. = 1
+  Transformer rating no. = 1
+  Threshold for flow check = 100
+  Apply in = Pre and post-contingency
+  Include branch = 2 6 'Line5'
+  Include branch = 3 9 'Line6'
+  Include branch = 7 8 'Line10'
+{End Thermal limit}
+
+[End]
