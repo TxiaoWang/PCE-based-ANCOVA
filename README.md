@@ -6,6 +6,7 @@
 The transfer capability is calculated using DSATools/VSAT referred to User Manuals of PSAT Powerflow & Short-circuit Analysis Tool and VSAT Voltage Security Assessment Tool; configuration files are:
 
 **References**
+
 [1] Larrahondo, D., Moreno, R., Chamorro, H. R., & Gonzalez-Longatt, F. (2021). Comparative performance of multi-period ACOPF and multi-period DCOPF under high integration of wind power. Energies, 14(15), 4540.
 ## Deterministic tool for TTC evaluation
 
