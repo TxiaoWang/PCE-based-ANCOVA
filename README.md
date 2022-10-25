@@ -1,7 +1,7 @@
 # PCE-based-ANCOVA
 ## System configuration 
 * The IEEE 24 bus system topology is referred to [1]. 
-* : case24.m: system data
+* case24.m: system data
 
 ## Deterministic tool for TTC evaluation
 
