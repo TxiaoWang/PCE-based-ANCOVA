@@ -1,4 +1,4 @@
-# PCE-based-ANCOVA
+# PCE-based-ANCOVA: PTTC assessment
 ## System configuration 
 * The IEEE 24 bus system topology is referred to [1]. 
 * case24.m: system data
